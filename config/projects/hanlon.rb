@@ -13,10 +13,6 @@ dependency 'preparation'
 # Build yourself you dumb bastard
 dependency 'hanlon'
 
-# hanlon dependencies/components
-# dependency 'ruby'
-
-
 # version manifest file
 dependency 'version-manifest'
 
