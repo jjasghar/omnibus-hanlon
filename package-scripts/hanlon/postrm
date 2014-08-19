@@ -1,0 +1,9 @@
+#!/bin/bash
+#
+# Perform necessary hanlon removal steps
+# after package is uninstalled.
+#
+
+echo "hanlon has been uninstalled!"
+
+exit 0
