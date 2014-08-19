@@ -6,7 +6,7 @@
 #  https://github.com/opscode/omnibus-software/tree/master/config/software
 #
 name "hanlon"
-default_version "1.0.0"
+default_version "master"
 
 dependency "ruby"
 dependency "rubygems"
