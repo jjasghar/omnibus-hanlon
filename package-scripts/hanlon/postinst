@@ -17,6 +17,7 @@ function error_exit
 
 ln -sf $EMBEDDED_BIN/ruby $PREFIX/local/bin/ruby || error_exit "Cannot link ruby to $PREFIX/bin"
 ln -sf $EMBEDDED_BIN/gem $PREFIX/local/bin/gem || error_exit "Cannot link gem to $PREFIX/bin"
+ln -sf $EMBEDDED_BIN/bundle $PREFIX/local/bin/bundle || error_exit "Cannot link bundle to $PREFIX/bin"
 ln -sf $EMBEDDED_BIN/puma $PREFIX/local/bin/puma || error_exit "Cannot link puma to $PREFIX/bin"
 ln -sf $EMBEDDED_HANLON/cli/hanlon $PREFIX/local/bin/hanlon || error_exit "Cannot link hanlon to $PREFIX/bin"
 ln -sf $EMBEDDED_HANLON/hanlon_init $PREFIX/local/bin/hanlon_init || error_exit "Cannot hanlon_init to $PREFIX/bin"
